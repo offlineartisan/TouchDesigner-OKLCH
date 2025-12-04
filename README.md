@@ -12,15 +12,6 @@ LCH is based on the OKLAB perceptual color space, designed to be uniform in how 
 
 - **Hue (H)**: Angular position on the color wheel, expressed in radians (-π to π). Radians are used because GLSL trig functions (`atan2`, `sin`, `cos`) work natively in radians, avoiding conversion overhead.
 
-| Color   | Radians | Degrees |
-|---------|---------|---------|
-| Red     | 0.0     | 0°      |
-| Yellow  | ~1.1    | ~63°    |
-| Green   | ~2.3    | ~132°   |
-| Cyan    | ~3.14   | 180°    |
-| Blue    | ~-1.9   | ~-109°  |
-| Magenta | ~-0.9   | ~-52°   |
-
 ## Toxes
 
 ### LCHPicker
